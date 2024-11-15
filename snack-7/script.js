@@ -27,4 +27,6 @@ students.forEach(curStud => {
   if (curStud.id === 2) student2 = { ...curStud }
 })
 
+const student22 = students.find(curStud => curStud.id === 2);
 console.log(student2);
+console.log(student22);
